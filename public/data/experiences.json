@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "company": "Aulosa",
+    "position": "Software Developer Intern",
+    "startDate": "2025-08",
+    "endDate": null,
+    "description": "Secured 100% of endpoints with JWT-based authentication. Integrated AWS DynamoDB to handle 500K records with optimized indexing and queries. Developed 10 scalable RESTful APIs using Node.js and Express to handle artist analytics, profile management, and music metadata. Reduced API response times by 35% through caching strategies and query optimization.",
+    "skills": ["Node.js", "Express", "AWS", "DynamoDB", "JWT", "RESTful APIs", "Performance Optimization"],
+    "order": 0,
+    "createdAt": "2025-01-19T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "company": "Tranna (IIM Bangalore-incubated)",
+    "position": "Backend Intern",
+    "startDate": "2024-01",
+    "endDate": "2024-12",
+    "description": "Contributed to backend development for an IIM Bangalore-incubated startup, focusing on scalable system architecture and robust API implementation. Developed and maintained RESTful APIs using Node.js and Express, ensuring optimal performance and reliability. Collaborated with the development team to design and implement backend services, working with both relational and NoSQL databases. Participated in code reviews, debugging, and optimization efforts to improve system efficiency. Gained hands-on experience in microservices architecture, database design, and implementing scalable solutions for production environments.",
+    "skills": ["Node.js", "Express", "Backend Development", "API Development", "Database Design", "Microservices", "System Architecture"],
+    "order": 1,
+    "createdAt": "2025-01-19T00:00:00.000Z"
+  }
+]

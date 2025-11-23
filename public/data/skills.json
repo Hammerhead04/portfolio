@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "JavaScript",
+    "category": "Frontend",
+    "icon": "SiJavascript",
+    "level": 90,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "ReactJS",
+    "category": "Frontend",
+    "icon": "SiReact",
+    "level": 85,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "HTML",
+    "category": "Frontend",
+    "icon": "SiHtml5",
+    "level": 90,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "CSS",
+    "category": "Frontend",
+    "icon": "SiCss3",
+    "level": 90,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "name": "NodeJS",
+    "category": "Backend",
+    "icon": "SiNodedotjs",
+    "level": 85,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "name": "ExpressJS",
+    "category": "Backend",
+    "icon": "SiExpress",
+    "level": 85,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 7,
+    "name": "MongoDB",
+    "category": "Backend",
+    "icon": "SiMongodb",
+    "level": 80,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Python",
+    "category": "Data Science",
+    "icon": "SiPython",
+    "level": 85,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Scikit-learn",
+    "category": "Data Science",
+    "icon": "SiPython",
+    "level": 80,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "name": "NumPy",
+    "category": "Data Science",
+    "icon": "SiPython",
+    "level": 80,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Pandas",
+    "category": "Data Science",
+    "icon": "SiPython",
+    "level": 80,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Matplotlib",
+    "category": "Data Science",
+    "icon": "SiPython",
+    "level": 75,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Jupyter",
+    "category": "Data Science",
+    "icon": "SiJupyter",
+    "level": 80,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Git",
+    "category": "DevOps",
+    "icon": "SiGit",
+    "level": 85,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 15,
+    "name": "GitHub",
+    "category": "DevOps",
+    "icon": "SiGithub",
+    "level": 85,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  }
+]

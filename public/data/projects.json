@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Agentic AI based Therapy Assistant",
+    "description": "Developed an intelligent therapy assistant using agentic AI architecture to provide personalized mental health support. Implemented conversational AI capabilities with natural language processing to understand user context and provide empathetic responses. Built a scalable backend system using Node.js and Express to handle real-time therapy sessions, user data management, and AI model integration. Designed the system with focus on privacy, security, and user experience, incorporating session management and progress tracking features.",
+    "image": "/images/projects/therapy-assistant.jpg",
+    "technologies": ["Python", "Node.js", "Express", "AI/ML", "Natural Language Processing", "React.js"],
+    "githubUrl": "https://github.com/Hammerhead04",
+    "demoUrl": null,
+    "featured": true,
+    "createdAt": "2024-03-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Diabetes Prediction using Random Forest",
+    "description": "Built a Random Forest model to predict diabetes using clinical data, achieving 76% accuracy. Performed data preprocessing, feature scaling, and trained a Random Forest classifier on the Pima Indians dataset. Evaluated performance with confusion matrix and classification report.",
+    "image": "/images/projects/diabetes-prediction.jpg",
+    "technologies": ["Python", "Scikit-learn", "NumPy", "Pandas", "Matplotlib"],
+    "githubUrl": "https://github.com/Hammerhead04",
+    "demoUrl": null,
+    "featured": true,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "QR-Enabled AR System for 3D Medical and Agricultural Training",
+    "description": "Created a QR-enabled browser-based AR training system with interactive 3D models, real-time rendering, and integrated user assessments. Built a responsive React.js interface integrated with real-time 3D model rendering using Three.js. Enabled model interactions including zoom, rotation, and detailed exploration. Incorporated assessment modules to test user understanding within the platform.",
+    "image": "/images/projects/ar-system.jpg",
+    "technologies": ["React.js", "Three.js", "JavaScript", "CSS", "HTML"],
+    "githubUrl": "https://github.com/Hammerhead04",
+    "demoUrl": null,
+    "featured": true,
+    "createdAt": "2024-02-01T00:00:00.000Z"
+  }
+]
