@@ -1,35 +1,37 @@
+/// <reference types="vitest" />
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import themePlugin from "@replit/vite-plugin-shadcn-theme-json";
 import path from "path";
-import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
+
+const root = import.meta.dirname;
 
 export default defineConfig({
-  plugins: [
-    react(),
-    runtimeErrorOverlay(),
-    themePlugin(),
-    ...(process.env.NODE_ENV !== "production" &&
-    process.env.REPL_ID !== undefined
-      ? [
-          await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer(),
-          ),
-        ]
-      : []),
-  ],
+  plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(import.meta.dirname, "client", "src"),
-      "@shared": path.resolve(import.meta.dirname, "shared"),
-      "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+      "@": path.resolve(root, "client", "src"),
     },
   },
-  root: path.resolve(import.meta.dirname, "client"),
+  root: path.resolve(root, "client"),
+  publicDir: path.resolve(root, "public"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist"),
+    outDir: path.resolve(root, "dist"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ["react", "react-dom"],
+          motion: ["motion/react"],
+        },
+      },
+    },
   },
-  // Copy static assets from public directory
-  publicDir: path.resolve(import.meta.dirname, "public"),
+  test: {
+    root,
+    environment: "jsdom",
+    globals: true,
+    setupFiles: [path.resolve(root, "vitest.setup.ts")],
+    include: ["client/src/**/*.test.{ts,tsx}"],
+    css: false,
+  },
 });
